@@ -252,7 +252,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-bottom: 1.5rem;
 }
 
 .status-badge {
@@ -436,6 +435,10 @@ main {
     font-size: 0.9rem;
 }
 
+.project-item .item-desc {
+    margin-top: .5rem;
+}
+
 /* Grid de Certificações e Formação */
 .two-col-grid {
     display: grid;
@@ -477,11 +480,27 @@ main {
     color: var(--text-secondary);
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
 .project-item {
     position: relative;
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
     padding: 1.5rem;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-link {
+    color: var(--accent-cyan);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
 }
 
 /* Rodapé / Contato */

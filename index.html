@@ -27,6 +27,7 @@
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#experiencia">experiencia</a></li>
                 <li><a href="#formacao">formacao</a></li>
+                <li><a href="#projects">projetos</a></li>
                 <li><a href="#contato">contato</a></li>
             </ul>
         </nav>
@@ -52,17 +53,15 @@
                     <p class="prompt-line">$ André Brizido Basilio</p>
                     <h1><span id="hero-title"></span></h1>
                     <p class="subtitle">Frontend Engineer | Web Developer | WorldSkills 2026 Medalist</p>
-
+                    <div class="badges-row">
+                        <span class="status-badge">🏆 WorldSkills Shanghai 2026 Champion</span>
+                        <span class="status-badge eu">🇪🇺 Portuguese / EU Citizenship</span>
+                        <span class="status-badge">📍 São Paulo, SP - Brazil</span>
+                    </div>
                 </div>
                 <img src="assets/competitor.jpg"
                      alt="André Brizido Basilio competindo na WorldSkills na modalidade Tecnologias Web"
                      class="hero-avatar">
-            </div>
-
-            <div class="badges-row">
-                <span class="status-badge">🏆 WorldSkills Shanghai 2026 Champion</span>
-                <span class="status-badge eu">🇪🇺 Portuguese / EU Citizenship</span>
-                <span class="status-badge">📍 São Paulo, SP - Brazil</span>
             </div>
 
             <p class="summary-text">
@@ -237,23 +236,32 @@
 
         </div>
     </section>
-
     <section id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title" class="section-heading">Projects</h2>
-        <article class="project-item">
-            <div class="item-header">
-                <h3 class="item-title">WorldSkills Shanghai 2026 Competitor</h3>
-                <span class="item-date">Out 2025 - Presente</span>
-            </div>
-            <p class="item-org">WorldSkills International • Skill #17 Web Technologies</p>
-            <p class="item-desc">
-                Competidor na modalidade #17 Tecnologias Web. Treinamento de alta intensidade focado em
-                arquitetura
-                moderna frontend e backend, otimização de performance web, modularidade de componentes de
-                interface
-                (UI) e padrões internacionais de qualidade.
-            </p>
-        </article>
+        <h2 id="projects-title" class="section-heading">PROJETOS</h2>
+        <div class="project-grid">
+            <article class="project-item">
+                <img src="assets/projects/magicare.png" alt="Interface da página do projeto Magicare"
+                     class="project-image">
+                <div class="item-header">
+                    <h3 class="item-title">Magicare</h3>
+                </div>
+                <ul class="tag-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p class="item-desc">
+                    Um projeto estático para a Magicare, uma empresa especializada em serviços de cuidado inteligente.
+                    Sendo aplicada em instituições de cuidado, comunidades de idosos e cuidados domiciliares.
+                </p>
+                <a href="https://magicare.netlify.app/"
+                   target="_blank"
+                   class="project-link"
+                   rel="noreferrer noopener">
+                    Acessar projeto Magicare
+                </a>
+            </article>
+        </div>
     </section>
 </main>
 
