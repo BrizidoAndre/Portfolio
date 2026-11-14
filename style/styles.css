@@ -130,11 +130,12 @@ main {
     background-color: var(--bg-secondary);
     border: 2px solid var(--border-color);
     box-shadow: 6px 6px 0 rgba(0, 255, 102, 0.15);
-    transition: transform .5s;
+    transition: transform .3s, box-shadow .3s;
 }
 
 .terminal-window:hover {
     transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0 rgba(0, 255, 102, 0.15);
 }
 
 .terminal-header {
